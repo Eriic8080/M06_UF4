@@ -1,0 +1,40 @@
+/*
+    FORMULARIO
+
+*/
+
+.barraDatos{
+    width: 30%;
+    height: 2em;
+    margin-bottom: 4em;
+}
+.enviarTarea{
+    height: 2.5em;
+    background-color: blueviolet;
+    color: white;
+}
+
+/*
+    TAREA
+*/
+
+.recuadroTarea {
+    width: 38%;
+    height: 2em;
+    background-color: white;
+    margin-left: 31%;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.textoTarea {
+    width: 94%;
+    text-align: center; 
+}
+
+.eliminarTarea {
+    width: 5%;
+    height: 2em;
+}
