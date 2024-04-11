@@ -27,14 +27,32 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
+    border: 2px solid black;
 }
 
-.textoTarea {
-    width: 94%;
-    text-align: center; 
-}
+
 
 .eliminarTarea {
-    width: 5%;
+    width: 6.5%;
     height: 2em;
+    background-color: red;
+    border-radius: 5px; 
+
+}
+.completed {
+    width: 94%;
+    text-align: center; 
+    text-decoration: line-through;
+
+  }
+  
+  .not-completed {
+    width: 94%;
+    text-align: center; 
+    text-decoration: none;
+  }
+  
+  .iconoBasura {
+    width: 100%;
+    height: 100%;
 }
